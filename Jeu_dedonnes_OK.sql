@@ -1,0 +1,102 @@
+-- Jeux de données OK
+INSERT INTO LesGenres VALUES ('Action');
+INSERT INTO LesGenres VALUES ('Animation');
+INSERT INTO LesGenres VALUES ('Aventure');
+INSERT INTO LesGenres VALUES ('Comedie');
+INSERT INTO LesGenres VALUES ('Documentaire');
+INSERT INTO LesGenres VALUES ('Drame');
+INSERT INTO LesGenres VALUES ('Fantastique');
+INSERT INTO LesGenres VALUES ('Guerre');
+INSERT INTO LesGenres VALUES ('Horreur');
+INSERT INTO LesGenres VALUES ('Romance');
+INSERT INTO LesGenres VALUES ('Science-Fiction');
+INSERT INTO LesGenres VALUES ('Thriller');
+INSERT INTO LesGenres VALUES ('Western');
+
+INSERT INTO LesPays VALUES ('France');
+INSERT INTO LesPays VALUES ('Allemagne');
+INSERT INTO LesPays VALUES ('Royaume-Uni');
+INSERT INTO LesPays VALUES ('Etats-Unis');
+INSERT INTO LesPays VALUES ('Espagne');
+INSERT INTO LesPays VALUES ('Italie');
+INSERT INTO LesPays VALUES ('Portugal');
+INSERT INTO LesPays VALUES ('Irlande');
+INSERT INTO LesPays VALUES ('Pays-Bas');
+INSERT INTO LesPays VALUES ('Suisse');
+INSERT INTO LesPays VALUES ('Canada');
+INSERT INTO LesPays VALUES ('Luxembourg');
+INSERT INTO LesPays VALUES ('Belgique');
+INSERT INTO LesPays VALUES ('Autriche');
+INSERT INTO LesPays VALUES ('Danemark');
+INSERT INTO LesPays VALUES ('Norvege');
+INSERT INTO LesPays VALUES ('Suede');
+INSERT INTO LesPays VALUES ('Finlande');
+INSERT INTO LesPays VALUES ('Australie');
+
+INSERT INTO LesUtilisateurs VALUES ('LIAtHeIN', 'liathein@gmail.com', '1999-03-22', 'France');
+INSERT INTO LesUtilisateurs VALUES ('UltIFY', 'ultify@outlook.com', '1995-06-11', 'Allemagne');
+INSERT INTO LesUtilisateurs VALUES ('Nordonte', 'nordonte@icloud.com', '1978-11-02', 'Canada');
+
+INSERT INTO LesOeuvres VALUES ('Pulp Fiction', 'film', 149, NULL, '1994-10-26', 'Thriller');
+INSERT INTO LesOeuvres VALUES ('Django Unchained', 'film', 164, NULL, '2013-01-16', 'Western');
+INSERT INTO LesOeuvres VALUES ('Le Loup de Wall Street', 'film', 179, NULL, '2013-12-25', 'Drame');
+INSERT INTO LesOeuvres VALUES ('Blade Runner', 'film', 117, NULL, '1982-09-15', 'Science-Fiction');
+INSERT INTO LesOeuvres VALUES ('Blade Runner 2049', 'film', 164, NULL, '2017-10-04', 'Science-Fiction');
+INSERT INTO LesOeuvres VALUES ('Peaky Blinders', 'serie', NULL, 5, '2013-09-12', 'Drame');
+INSERT INTO LesOeuvres VALUES ('Black Mirror', 'serie', NULL, 5, '2011-12-04', 'Science-Fiction');
+
+INSERT INTO LesPersonnes VALUES ('Tarantino', 'Quentin', '1963-03-27', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Scorsese', 'Martin', '1942-11-17', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Scott', 'Ridley', '1937-11-30', 'Royaume-Uni');
+INSERT INTO LesPersonnes VALUES ('Villeneuve', 'Denis', '1967-10-03', 'Canada');
+INSERT INTO LesPersonnes VALUES ('Harper', 'Tom', '1980-01-07', 'Royaume-Uni');
+INSERT INTO LesPersonnes VALUES ('Bathurst', 'Otto', '1971-06-16', 'Royaume-Uni');
+INSERT INTO LesPersonnes VALUES ('Brooker', 'Charlie', '1971-03-03', 'Royaume-Uni');
+INSERT INTO LesPersonnes VALUES ('Travolta', 'John', '1954-02-18', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Thurman', 'Uma', '1970-04-29', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Jackson', 'Samuel', '1948-12-21', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Willis', 'Bruce', '1955-03-19', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Foxx', 'Jamie', '1967-12-13', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('DiCaprio', 'Leonardo', '1974-11-11', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Waltz', 'Christoph', '1956-10-04', 'Autriche');
+INSERT INTO LesPersonnes VALUES ('Hill', 'Jonah', '1983-12-20', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Robbie', 'Margot', '1990-07-02', 'Australie');
+INSERT INTO LesPersonnes VALUES ('Ford', 'Harrison', '1942-07-13', 'Etats-Unis');
+INSERT INTO LesPersonnes VALUES ('Gosling', 'Ryan', '1980-11-12', 'Canada');
+INSERT INTO LesPersonnes VALUES ('Murphy', 'Cillian', '1976-05-25', 'Irlande');
+
+INSERT INTO LesActeurs VALUES ('Travolta', 'John', 'Pulp Fiction');
+INSERT INTO LesActeurs VALUES ('Thurman', 'Uma', 'Pulp Fiction');
+INSERT INTO LesActeurs VALUES ('Jackson', 'Samuel', 'Pulp Fiction');
+INSERT INTO LesActeurs VALUES ('Willis', 'Bruce', 'Pulp Fiction');
+INSERT INTO LesActeurs VALUES ('Foxx', 'Jamie', 'Django Unchained');
+INSERT INTO LesActeurs VALUES ('DiCaprio', 'Leonardo', 'Django Unchained');
+INSERT INTO LesActeurs VALUES ('Waltz', 'Christoph', 'Django Unchained');
+INSERT INTO LesActeurs VALUES ('Hill', 'Jonah', 'Django Unchained');
+INSERT INTO LesActeurs VALUES ('DiCaprio', 'Leonardo', 'Le Loup de Wall Street');
+INSERT INTO LesActeurs VALUES ('Hill', 'Jonah', 'Le Loup de Wall Street');
+INSERT INTO LesActeurs VALUES ('Robbie', 'Margot', 'Le Loup de Wall Street');
+INSERT INTO LesActeurs VALUES ('Ford', 'Harrison', 'Blade Runner');
+INSERT INTO LesActeurs VALUES ('Ford', 'Harrison', 'Blade Runner 2049');
+INSERT INTO LesActeurs VALUES ('Gosling', 'Ryan', 'Blade Runner 2049');
+INSERT INTO LesActeurs VALUES ('Murphy', 'Cillian', 'Peaky Blinders');
+
+INSERT INTO LesRealisateurs VALUES ('Tarantino', 'Quentin', 'Pulp Fiction');
+INSERT INTO LesRealisateurs VALUES ('Tarantino', 'Quentin', 'Django Unchained');
+INSERT INTO LesRealisateurs VALUES ('Scorsese', 'Martin', 'Le Loup de Wall Street');
+INSERT INTO LesRealisateurs VALUES ('Scott', 'Ridley', 'Blade Runner');
+INSERT INTO LesRealisateurs VALUES ('Villeneuve', 'Denis', 'Blade Runner 2049');
+INSERT INTO LesRealisateurs VALUES ('Harper', 'Tom', 'Peaky Blinders');
+INSERT INTO LesRealisateurs VALUES ('Bathurst', 'Otto', 'Peaky Blinders');
+INSERT INTO LesRealisateurs VALUES ('Brooker', 'Charlie', 'Black Mirror');
+
+INSERT INTO LesVisionnages VALUES ('LIAtHeIN', 'Django Unchained');
+INSERT INTO LesVisionnages VALUES ('LIAtHeIN', 'Peaky Blinders');
+INSERT INTO LesVisionnages VALUES ('Nordonte', 'Blade Runner');
+INSERT INTO LesVisionnages VALUES ('Nordonte', 'Blade Runner 2049');
+INSERT INTO LesVisionnages VALUES ('Nordonte', 'Black Mirror');
+
+INSERT INTO LesPreferences VALUES ('Nordonte', 'Science-Fiction');
+INSERT INTO LesPreferences VALUES ('UltIFY', 'Drame');
+INSERT INTO LesPreferences VALUES ('UltIFY', 'Thriller');
+INSERT INTO LesPreferences VALUES ('UltIFY', 'Action');
